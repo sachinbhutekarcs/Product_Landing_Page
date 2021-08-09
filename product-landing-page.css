@@ -1,0 +1,90 @@
+body {
+  background: #eeeeee;
+}
+
+#nav-bar {
+  position: fixed;
+  min-width: 100vw;
+}
+#contact-form {
+  padding-top: 5%;
+  text-align: center;
+}
+
+input {
+  margin: 10px;
+}
+
+#header-img {
+  width: 200px;
+}
+
+#submit,
+button {
+  background: gold;
+  font-weight: bold;
+  border: none;
+  padding-inline: 20px;
+}
+
+#feature {
+  display: flex;
+  flex-direction: column;
+  margin: 3% 8%;
+}
+
+.pricing-column-card {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20px;
+  border: black solid 2px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 20fr 80fr;
+  gap: 20px;
+}
+
+i {
+  text-align: center;
+  color: gold;
+}
+
+#video-section {
+  text-align: center;
+  z-index: -1;
+}
+
+#pricing {
+  display: flex;
+  margin: 3% 10%;
+  justify-content: space-between;
+  text-align: center;
+}
+.card-header,
+#footer {
+  background: #ddd;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+#footer {
+  text-align: end;
+  margin-inline: 10%;
+  padding: 20px;
+}
+a {
+  color: black;
+}
+
+@media screen and (max-width: 1050px) {
+  #pricing {
+    flex-direction: column;
+  }
+}
